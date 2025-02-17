@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+  
+  
+  header {
+    background: url(top.png) no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+  }
+
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: transparent;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .hero {
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+  }
+  
+  .hero span {
+    color:#00b3dd; 
+  }
+  
+  .hire-btn {
+    padding: 10px 20px;
+    background-color: #00b3dd;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hire-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .about-container {
+    display: flex;
+    padding: 20px;
+    background-color: #101010;
+    margin: 20px 0;
+  }
+  
+  
+  .services {
+    padding: 20px;
+  }
+  
+  .service-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  
+  .skills {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #101010;
+    border: 1px solid #666;
+  }
+  .contact {
+    height: 200px;
+    width: 30%;
+    padding-left: 22px;
+  }
+ 
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:70% ;
+  }
+  
+  input, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  
+  }
+.web {
+  display: flex;
+  width: 100%;
+
+
+  }
+  
+textarea{
+    margin-top: -8px;
+    height: 280px;
+    width:60%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #00b3dd;
+    color:white;
+    cursor: pointer;
+    width: 100px;
+    margin-left:213px;
+    margin-top: 10px;
+    border-radius: 50px;
+  }
+  .messagecenter {
+    height: 230px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+
+
+  }
+  
+  footer {
+
+    margin-top: 40px;
+    text-align: center;
+    background-color: #101010;
+    padding: 10px;
+  }
